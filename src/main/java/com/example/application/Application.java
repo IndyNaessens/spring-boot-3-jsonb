@@ -13,7 +13,7 @@ public class Application {
     }
 
     @RestController
-    static class Controller {
+    public class Controller {
 
         @GetMapping(value = "jsonb")
         public Data data() {
